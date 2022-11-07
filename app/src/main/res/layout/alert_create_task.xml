@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/textTaskInput"
+        android:maxLength="500"
+        android:hint="Текст задачи"
+        style="@style/AlertCreateTaskEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/AlertCreateTaskEditText">
+
+        <TextView
+            android:id="@+id/selectedDate"
+            android:text="Задать дату"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="6dp"
+            style="@style/AlertCreateTaskEditText"
+            />
+
+        <TextView
+            android:id="@+id/selectedDateDelete"
+            android:text="Стреть дату"
+            android:textColor="@color/red"
+            android:layout_marginTop="6dp"
+            style="@style/AlertCreateTaskEditText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AlertCreateTaskEditText">
+
+        <TextView
+            android:id="@+id/selectedTime"
+            android:text="Задать время"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="6dp"
+            style="@style/AlertCreateTaskEditText"/>
+
+        <TextView
+            android:id="@+id/selectedTimeDelete"
+            android:text="Стереть время"
+            android:textColor="@color/red"
+            android:layout_marginTop="6dp"
+            style="@style/AlertCreateTaskEditText"/>
+
+    </LinearLayout>
+
+</LinearLayout>

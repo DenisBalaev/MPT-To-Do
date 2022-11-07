@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "999793255623",
+    "firebase_url": "https://mpttodo-default-rtdb.firebaseio.com",
+    "project_id": "mpttodo",
+    "storage_bucket": "mpttodo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999793255623:android:1c10e0d57b1c718d95cae2",
+        "android_client_info": {
+          "package_name": "com.example.mpttodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999793255623-bfkkd2h62mv3kigb25kbcot58rabccff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mpttodo",
+            "certificate_hash": "6e6f91fdd4a9626fb4e45f47bd23c4205a2f19a5"
+          }
+        },
+        {
+          "client_id": "999793255623-9rd0gdfo6jfd918hpehsf61s83c709em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7gADnpRcVNLSPX0gWhQ_IJeztW2t3UEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999793255623-9rd0gdfo6jfd918hpehsf61s83c709em.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

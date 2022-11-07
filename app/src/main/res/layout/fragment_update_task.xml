@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentUpdateTask">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBarUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/save_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_save"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@color/white"/>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <EditText
+            android:id="@+id/edtUpdateTaskText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/AlertCreateTaskEditText"
+            android:maxLength="500"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/AlertCreateTaskEditText">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Задать дату"
+                style="@style/AlertCreateTaskEditText"
+                android:textColor="#3F51B5"/>
+
+            <TextView
+                android:id="@+id/tvDateDelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Стререть дату"
+                android:textColor="@color/red"
+                android:layout_marginLeft="12dp"
+                style="@style/AlertCreateTaskEditText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            style="@style/AlertCreateTaskEditText">
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="12:34"
+                style="@style/AlertCreateTaskEditText"
+                android:textColor="#3F51B5"/>
+
+            <TextView
+                android:id="@+id/tvTimeDelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Стререть время"
+                android:textColor="@color/red"
+                android:layout_marginLeft="12dp"
+                style="@style/AlertCreateTaskEditText"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

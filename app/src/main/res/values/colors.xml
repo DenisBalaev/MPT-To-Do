@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49974C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red">#C4DF1201</color>
+    
+    //color_alertDialog_Customer
+    <color name="white">#FFFF</color>
+    <color name="portage">#788DDC</color>
+    <color name="londonHue">#BC79BC</color>
+    <color name="deepBlush">#E46D8D</color>
+    <color name="terraCotta">#E56B68</color>
+    <color name="oceanGreen">#4AA079</color>
+    <color name="lightSeaGreen">#0BBAAD</color>
+    <color name="darkOrchid">#9C27B0</color>
+    <color name="purpleHeart">#673AB7</color>
+    <color name="freeSpeechBlue">#3F51B5</color>
+    <color name="dodgerBlue">#2196F3</color>
+    <color name="irisBlue">#00BCD4</color>
+    <color name="fruitSalad">#4CAF50</color>
+    <color name="mantis">#8BC34A</color>
+    <color name="lasPalmas">#CDDC39</color>
+    <color name="gorse">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orangePeel">#FF9800</color>
+    <color name="outrageousOrange">#FF5722</color>
+    <color name="gray">#C0C0C0</color>
+
+
+
+    <array name="color_alertDialog_Customer">
+        <item>@color/portage</item>
+        <item>@color/londonHue</item>
+        <item>@color/deepBlush</item>
+        <item>@color/terraCotta</item>
+        <item>@color/oceanGreen</item>
+        <item>@color/lightSeaGreen</item>
+        <item>@color/darkOrchid</item>
+        <item>@color/purpleHeart</item>
+        <item>@color/freeSpeechBlue</item>
+        <item>@color/dodgerBlue</item>
+        <item>@color/irisBlue</item>
+        <item>@color/fruitSalad</item>
+        <item>@color/mantis</item>
+        <item>@color/lasPalmas</item>
+        <item>@color/gorse</item>
+        <item>@color/amber</item>
+        <item>@color/orangePeel</item>
+        <item>@color/outrageousOrange</item>
+    </array>
+</resources>
+
